@@ -108,6 +108,10 @@ p {
   color: #2a2a2a;
 }
 
+.space-text {
+  line-height: 30px;
+}
+
 /* 
 ---------------------------------------------
 global styles
@@ -142,6 +146,9 @@ body {
   }
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
+  }
+  .pix-top {
+    height: 300px;
   }
 }
 
@@ -315,12 +322,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #31b98e!important;
+  color: red!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #31b98e!important;
+  color: red!important;
   opacity: 1;
 }
 
